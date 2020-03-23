@@ -19,7 +19,9 @@ namespace Curso_C_Sharp_Udemy_70_483
             //SortedListSamples.Run();
             //GenericList.Run();
             //GenericSortedList.Run();
-            GenericDictionary.Run();
+            //GenericDictionary.Run();
+
+            Capitulo_09.VehiculosSamples.Run();
             Console.ReadKey();
         }
     }

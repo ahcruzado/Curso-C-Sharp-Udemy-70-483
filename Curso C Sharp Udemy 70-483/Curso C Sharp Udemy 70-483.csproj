@@ -59,6 +59,9 @@
     <Compile Include="Capitulo 08\QueueSamples.cs" />
     <Compile Include="Capitulo 08\SortedListSamples.cs" />
     <Compile Include="Capitulo 08\StackSamples.cs" />
+    <Compile Include="Capitulo 09\Carro.cs" />
+    <Compile Include="Capitulo 09\Vehiculo.cs" />
+    <Compile Include="Capitulo 09\VehiculosSamples.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
