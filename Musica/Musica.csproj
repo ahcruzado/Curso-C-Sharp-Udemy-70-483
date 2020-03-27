@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{783A6EB7-DF66-4C17-AE06-BC7C3EF308D7}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>Curso_C_Sharp_Udemy_70_483</RootNamespace>
-    <AssemblyName>Curso C Sharp Udemy 70-483</AssemblyName>
+    <ProjectGuid>{CCC21CE8-51BB-4242-9282-1A77258412C9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Musica</RootNamespace>
+    <AssemblyName>Musica</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,33 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Capitulo 08\ArrayListSamples.cs" />
-    <Compile Include="Capitulo 08\ArraySamples.cs" />
-    <Compile Include="Capitulo 08\Clientes.cs" />
-    <Compile Include="Capitulo 08\CollectionsSamples.cs" />
-    <Compile Include="Capitulo 08\Figura.cs" />
-    <Compile Include="Capitulo 08\GenericDictionary.cs" />
-    <Compile Include="Capitulo 08\GenericList.cs" />
-    <Compile Include="Capitulo 08\GenericSortedList.cs" />
-    <Compile Include="Capitulo 08\HashTableSamples.cs" />
-    <Compile Include="Capitulo 08\Interface1.cs" />
-    <Compile Include="Capitulo 08\Libros.cs" />
-    <Compile Include="Capitulo 08\OrdenarDesc.cs" />
-    <Compile Include="Capitulo 08\Producto.cs" />
-    <Compile Include="Capitulo 08\QueueSamples.cs" />
-    <Compile Include="Capitulo 08\SortedListSamples.cs" />
-    <Compile Include="Capitulo 08\StackSamples.cs" />
-    <Compile Include="Capitulo 09\Carro.cs" />
-    <Compile Include="Capitulo 09\Vehiculo.cs" />
-    <Compile Include="Capitulo 09\VehiculosSamples.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="IFuncion.cs" />
+    <Compile Include="Instrumeto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Capitulo 10\" />
+    <Compile Include="Vehiculo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

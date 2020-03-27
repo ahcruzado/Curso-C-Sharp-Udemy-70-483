@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{783A6EB7-DF66-4C17-AE06-BC7C3EF308D7}</ProjectGuid>
+    <ProjectGuid>{3717ABFF-1EA0-4D42-ADED-6A167DE979DC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Curso_C_Sharp_Udemy_70_483</RootNamespace>
-    <AssemblyName>Curso C Sharp Udemy 70-483</AssemblyName>
+    <RootNamespace>Hilos</RootNamespace>
+    <AssemblyName>Hilos</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -39,37 +42,36 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Capitulo 08\ArrayListSamples.cs" />
-    <Compile Include="Capitulo 08\ArraySamples.cs" />
-    <Compile Include="Capitulo 08\Clientes.cs" />
-    <Compile Include="Capitulo 08\CollectionsSamples.cs" />
-    <Compile Include="Capitulo 08\Figura.cs" />
-    <Compile Include="Capitulo 08\GenericDictionary.cs" />
-    <Compile Include="Capitulo 08\GenericList.cs" />
-    <Compile Include="Capitulo 08\GenericSortedList.cs" />
-    <Compile Include="Capitulo 08\HashTableSamples.cs" />
-    <Compile Include="Capitulo 08\Interface1.cs" />
-    <Compile Include="Capitulo 08\Libros.cs" />
-    <Compile Include="Capitulo 08\OrdenarDesc.cs" />
-    <Compile Include="Capitulo 08\Producto.cs" />
-    <Compile Include="Capitulo 08\QueueSamples.cs" />
-    <Compile Include="Capitulo 08\SortedListSamples.cs" />
-    <Compile Include="Capitulo 08\StackSamples.cs" />
-    <Compile Include="Capitulo 09\Carro.cs" />
-    <Compile Include="Capitulo 09\Vehiculo.cs" />
-    <Compile Include="Capitulo 09\VehiculosSamples.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Capitulo 10\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
