@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadoresConsulta", "Opera
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConexionRemota", "ConexionRemota\ConexionRemota.csproj", "{318E5F5A-E99E-409C-81C0-D77AF3BDC91E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cliente", "Cliente\Cliente.csproj", "{1F05003A-AA40-493A-96C5-CB9732ABF586}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servidor", "Servidor\Servidor.csproj", "{416E53FA-D9D2-475D-AB24-4D41B1D7F787}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{318E5F5A-E99E-409C-81C0-D77AF3BDC91E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{318E5F5A-E99E-409C-81C0-D77AF3BDC91E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{318E5F5A-E99E-409C-81C0-D77AF3BDC91E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F05003A-AA40-493A-96C5-CB9732ABF586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F05003A-AA40-493A-96C5-CB9732ABF586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F05003A-AA40-493A-96C5-CB9732ABF586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F05003A-AA40-493A-96C5-CB9732ABF586}.Release|Any CPU.Build.0 = Release|Any CPU
+		{416E53FA-D9D2-475D-AB24-4D41B1D7F787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{416E53FA-D9D2-475D-AB24-4D41B1D7F787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{416E53FA-D9D2-475D-AB24-4D41B1D7F787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{416E53FA-D9D2-475D-AB24-4D41B1D7F787}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
