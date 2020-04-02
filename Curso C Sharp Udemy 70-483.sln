@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriptoAsimetrico", "CriptoA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegados", "Delegados\Delegados.csproj", "{BE009326-0FAD-4B0A-99F7-9B6DD7D28C16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda", "Lambda\Lambda.csproj", "{9F8B2773-74C1-4CE6-92CE-AE72A9C4F617}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{BE009326-0FAD-4B0A-99F7-9B6DD7D28C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE009326-0FAD-4B0A-99F7-9B6DD7D28C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE009326-0FAD-4B0A-99F7-9B6DD7D28C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F8B2773-74C1-4CE6-92CE-AE72A9C4F617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F8B2773-74C1-4CE6-92CE-AE72A9C4F617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F8B2773-74C1-4CE6-92CE-AE72A9C4F617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F8B2773-74C1-4CE6-92CE-AE72A9C4F617}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
